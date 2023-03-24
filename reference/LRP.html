@@ -336,15 +336,15 @@ either <code>'float'</code> for <a href="https://rdrr.io/pkg/torch/man/torch_dty
 <span class="r-in"><span><span class="fu"><a href="get_result.html">get_result</a></span><span class="op">(</span><span class="va">lrp</span><span class="op">)</span><span class="op">[</span><span class="fl">1</span><span class="op">:</span><span class="fl">2</span>,,<span class="op">]</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> , , Y1</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>                X1           X2          X3          X4          X5</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1,] -0.017837990 0.0001090655 0.038832191  0.01785296  0.05252805</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [2,]  0.009967514 0.0077081118 0.001853764 -0.07435216 -0.01020360</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>              X1         X2         X3          X4           X5</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1,] 0.02520325 -0.1578989 0.06603592 -0.05573564 -0.001956183</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [2,] 0.07037577 -0.1465688 0.13995203  0.01190334  0.015434517</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> , , Y2</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>                X1           X2           X3         X4         X5</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1,] -0.123257451  0.003049992 -0.048966710 0.01123702 0.08552700</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [2,]  0.001911175 -0.022358827 -0.001006155 0.04796284 0.05705274</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>               X1          X2          X3           X4           X5</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1,] -0.03697456 -0.07840817 -0.38504234  0.043241505 -0.009920982</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [2,]  0.04240043  0.12949590 -0.02736856 -0.004145808  0.041107632</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="co"># Plot the result for both classes</span></span></span>
@@ -374,36 +374,36 @@ either <code>'float'</code> for <a href="https://rdrr.io/pkg/torch/man/torch_dty
 <span class="r-out co"><span class="r-pr">#&gt;</span> , , setosa</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>      Sepal.Length Sepal.Width Petal.Length Petal.Width</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1,]    0.9334947  -0.1196164    -1.283688  -0.3523311</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [2,]    1.1994400   0.2734911    -1.638968  -0.5618943</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1,]     2.238717    6.157131    -1.460472 -0.06473943</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [2,]     2.690890    6.587477    -1.779816 -0.06285546</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> , , versicolor</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>      Sepal.Length Sepal.Width Petal.Length Petal.Width</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1,]   -0.6984181   0.8889508    0.6456140   0.1564429</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [2,]   -0.9656649   1.3378198    0.7637491   0.1721396</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1,]    0.3295028   -2.578095     1.112365 -0.01613692</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [2,]   -1.3162699   -1.706132     1.849361  0.10901969</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> , , virginica</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>      Sepal.Length Sepal.Width Petal.Length Petal.Width</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1,]   -0.3361502   -1.101636     2.265443   0.2914836</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [2,]   -0.6194145   -1.640300     2.927865   0.4526110</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1,]    -5.175776    5.773328     1.851468   0.4373214</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [2,]    -4.322649    4.356276     2.078236   0.4327439</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="co"># get the result as a torch tensor for data point one and two</span></span></span>
 <span class="r-in"><span><span class="fu"><a href="get_result.html">get_result</a></span><span class="op">(</span><span class="va">lrp</span>, type <span class="op">=</span> <span class="st">"torch.tensor"</span><span class="op">)</span><span class="op">[</span><span class="fl">1</span><span class="op">:</span><span class="fl">2</span><span class="op">]</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> torch_tensor</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> (1,.,.) = </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   0.9335 -0.6984 -0.3362</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  -0.1196  0.8890 -1.1016</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  -1.2837  0.6456  2.2654</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  -0.3523  0.1564  0.2915</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>   2.2387  0.3295 -5.1758</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>   6.1571 -2.5781  5.7733</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  -1.4605  1.1124  1.8515</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  -0.0647 -0.0161  0.4373</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> (2,.,.) = </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   1.1994 -0.9657 -0.6194</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   0.2735  1.3378 -1.6403</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  -1.6390  0.7637  2.9279</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  -0.5619  0.1721  0.4526</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>   2.6909 -1.3163 -4.3226</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>   6.5875 -1.7061  4.3563</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  -1.7798  1.8494  2.0782</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  -0.0629  0.1090  0.4327</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [ CPUFloatType{2,4,3} ]</span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="co"># use the alpha-beta rule with alpha = 2</span></span></span>
